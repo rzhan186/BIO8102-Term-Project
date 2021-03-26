@@ -8,3 +8,8 @@ usethis::use_git_config(
 usethis::create_github_token()
 
 credentials::set_github_pat()
+usethis::use_git()
+
+
+usethis::use_github()
+usethis::git_vaccinate()

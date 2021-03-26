@@ -1,5 +1,5 @@
 ---
-title: "The effect of Bti on soil microbiome in Kanata, Ontario, Canada"
+title: "BIO8102 term project: The effect of Bti on soil microbiome in Kanata, Ontario, Canada "
 author: "Rui Zhang"
 date: "3/26/2021"
 output: html_document
@@ -9,22 +9,34 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+*data used in this project can be found in my github repo: (https://github.com/Rui-Zzhang/BIO8102-Term-Project)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## 1 Introduction (10%)
+### 1.1 Background
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### 1.2 Study system
 
-```{r cars}
-summary(cars)
-```
+### 1.3 Hypothese and predictions 
 
-## Including Plots
+* backgound, big picture and specific problem
+* study system
+* specific hypothese to be tested
+* predictions
 
-You can also embed plots, for example:
+## 2 Methods (20%)
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## 3 Results (25%)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## 4 Discussion (15%)
+
+## 5 Reference
+
+## Style (30%)
+* clarity and code reproducibility (10%)
+* organization (5%)
+* clarity of text (10%)
+* Typos and grammar (5%)
+
+
+
+
