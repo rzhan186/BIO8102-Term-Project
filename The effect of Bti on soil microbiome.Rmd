@@ -36,6 +36,7 @@ Soil samples were collected near water ponds, then pH, Conductivity (uS), temper
 In this project, we will be mainly examining the effect Bti treatment on these three-alpha diversity metrices by accounting for the physical chemical parameters as well as week and year using various statistical approach. 
 
 
+
 ## 3 Results (25%)
 
 ## 4 Discussion (15%)
