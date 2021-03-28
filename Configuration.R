@@ -6,10 +6,6 @@ usethis::use_git_config(
   user.email = "zzhan186@uottawa.ca")
 
 usethis::create_github_token()
-
 credentials::set_github_pat()
 usethis::use_git()
 
-
-usethis::use_github()
-usethis::git_vaccinate()
