@@ -10,39 +10,52 @@ bibliography: reference.bib
 ## 1 Introduction (10%)
 ### 1.1 Background
 
-*Bacillus thuringiensis subsp. israelensis* (Bti) is a biolarvicde that is widely used in Europe and North America for mosquito control, due to its reputation of being an effective, environmentally-friendly and mosquito-specific biocide @despres2011. As a bio-larvicide, the toxicity of Bti to mosquito larvae is associated with its Cry and Cyt toxins produced as crystals during bacterial sporulation, which are solubilized in the gut of the mosquito larvae after ingestion @ben-dov2014. The toxins can then bind to certain protein receptors on the gut cell membrane, leading to the oligomerization and disruption of the gut, which ultimately cause the larval death @vachon2012. The specificity of this toxin makes it an ideal larvicide to control larvae of the suborder Nematocera, which includes mosquitoes, black flies and chironomids @bruhl2020. 
+*Bacillus thuringiensis subsp. israelensis* (Bti) is a biolarvicde that is widely used in Europe and North America for mosquito control, due to its reputation of being an effective, environmentally-friendly and mosquito-specific biocide [@despres2011]. As a bio-larvicide, the toxicity of Bti to mosquito larvae is associated with its Cry and Cyt toxins produced as crystals during bacterial sporulation, which are solubilized in the gut of the mosquito larvae after ingestion [@ben-dov2014]. The toxins can then bind to certain protein receptors on the gut cell membrane, leading to the oligomerization and disruption of the gut, which ultimately cause the larval death [@vachon2012]. The specificity of this toxin makes it an ideal larvicide to control larvae of the suborder Nematocera, which includes mosquitoes, black flies and chironomids [@bruhl2020]. 
 
-For the above benefits, the City of Ottawa initiated a pilot project to investigate the effect of Bti on eliminating the local mosquito population in Kanata in response to increased complains from local residents about mosquito nuisance. The bio-larvicide was applied for three years in South March Highlands Conservation Forest (SMHCF) from 2016 to 2018.  With the close monitoring of its effects on mosquito populations, the University of Ottawa MSc student Liam Epp collected data about the number of mosquitos in the Bti treated and control sites, along with the sediments from those area. His study concluded that statistical modelling failed to show Bti treatment as a significant predictor of mosquito quantities @epp2018. 
+For the above benefits, the City of Ottawa initiated a pilot project to investigate the effect of Bti on eliminating the local mosquito population in Kanata in response to increased complains from local residents about mosquito nuisance. The bio-larvicide was applied for three years in South March Highlands Conservation Forest (SMHCF) from 2016 to 2018.  With the close monitoring of its effects on mosquito populations, the University of Ottawa MSc student Liam Epp collected data about the number of mosquitos in the Bti treated and control sites, along with the sediments from those area. His study concluded that statistical modelling failed to show Bti treatment as a significant predictor of mosquito quantities [@epp2018]. 
 
 
 ### 1.2 Study system and hypothese
 
-As one of the drivers for biogeochemical cycling of various nutrient and other elements, soil microbiomes are essential for the survival and prosperity of plants and animal life @jansson2020. Following the lack of evidence of Bti as an effective bio-larvicide in reducing mosquito populations in Kanata, we thus wondered whether Bti can affect the local soil microbiocidal communities and alter their structures.
+As one of the drivers for biogeochemical cycling of various nutrient and other elements, soil microbiomes are essential for the survival and prosperity of plants and animal life [@jansson2020]. Following the lack of evidence of Bti as an effective bio-larvicide in reducing mosquito populations in Kanata, we thus wondered whether Bti can affect the local soil microbial communities and alter their structures.
 
 Bacillus thuringiensis (or Bt) is a Gram-positive, facultative anaerobic endospore-forming bacterium that is commonly found in soil as well as estuarine sediments. It can also be found naturally on leaf surfaces, aquatic environments, animal feces and insect-rich environment (ref: brock biology of microorganisms). Due to its soil-dwelling property, **we hypothesize that its application would alter the soil microbial structures, thus result in a change in microbial diversity as well as relative abundance.** 
 
 ## 2 Methods (20%)
 ### 2.1 Data collection 
 
-Bti was applied in South March Highlands Conservation Forest (SMHCF) for three years from 2016 to 2018. As shown in figure 1, red circles represent the Bti treatment sites within SMHCF where soil samples were collected (i.e., 15 treatment sites), and the green dots represent the control sites without Bti treatment where soil samples were collected (i.e., 15 treatment sites). Soil sampling started a week after Bti was applied each year. Sampling was conducted from May to August on a weekly basis in each year (i.e., 12 weeks per year), thus soil at each sampling location was collected repeatedly for 12 times each year. 
-
-However, the above methodologies are only an ideal scenario, and an incomplete dataset were provided in reality. Data from 2016 were largely missing, thus has to be excluded. For 2017 and 2018, we only have data available for 7 treatment sites (site number: 1,4,6,9,12,14,15) and 6 control sites (site number: 19, 20, 23, 24, 28, 30). In addition, the number of times each sampling location was measured vary from 3 to 5, nothing close to what was originally proposed of 12 times. 
+Bti was applied in South March Highlands Conservation Forest (SMHCF) for three years from 2016 to 2018. As shown in figure 1, red circles represent the Bti treatment sites within SMHCF where soil samples were collected (i.e., 15 treatment sites), and the green dots represent the control sites without Bti treatment where soil samples were collected (i.e., 15 control sites). Soil sampling started a week after Bti was applied each year. Sampling was conducted from May to August on a weekly basis in each year (i.e., 12 weeks per year), thus soil at each sampling location was collected repeatedly for 12 times each year. 
 
 ![Figure 1. Map of SMHCF treatment and control areas; 15 Bti-treated (red dots) and 15 control sites (green dots) are illustrated. ](figure-1.png){width=50%}
 
-Soil samples were collected near water ponds, then pH, Conductivity (uS), temperature (deg Celsius) and dissolved oxygen (DO) (mg/L), as well as the concentration of ammonia (mg/L) and nitrate(mg/L) were recorded along with the soil samples. Soil samples then subsequently underwent DNA extract and sent to a sequencing facility for 16S rRNA sequencing. The samples were processed and analyzed using the Quantitative Insights into Microbial Ecology (QIIME2, version 2020.8) @bolyen2019 custom pipeline. Alpha diversity metrics were obtained, which are measures of species diversity within a sample. Here we obtained three alpha diversity metrics generated by QIIME2 including Shannon’s diversity index, Pielou’s Evenness and Faith’s Phylogenetic Diversity, which are all continuous real numbers. 
+However, the above methodologies are only an ideal scenario, and an incomplete dataset were provided in reality. Data from 2016 were largely missing, thus has to be excluded. For 2017 and 2018, we only have data available for 7 treatment sites (site number: 1,4,6,9,12,14,15) and 6 control sites (site number: 19, 20, 23, 24, 28, 30). In addition, the number of times each sampling location was measured vary from 3 to 5, nothing close to what was originally proposed of 12 times. Figure 2 shows the data structure of the real scenario. 
+
+![Figure 2. Data structure. We are mainly interested in the variable`TreatP`, thus it would be a fixed effect variable. Variables `Site` and `Week` are crossed, because at each site, samples were collected repeatedly for 5 weeks. Lastly, the samples were collected for two years..](figure-2.png)
+
+Soil samples were collected near water ponds, then pH, Conductivity (uS), temperature (deg Celsius) and dissolved oxygen (DO) (mg/L), as well as the concentration of ammonia (mg/L) and nitrate(mg/L) were recorded along with the soil samples. Soil samples then subsequently underwent DNA extraction and were sent to a sequencing facility for 16S rRNA sequencing. The samples were processed and analyzed using the Quantitative Insights into Microbial Ecology (QIIME2, version 2020.8) [@bolyen2019] custom pipeline. Alpha diversity metrics were obtained, which are measures of species diversity within a sample. Here we present three alpha diversity metrics generated by QIIME2 including Shannon’s diversity index, Pielou's evenness and Faith’s Phylogenetic Diversity (faith pd), which are all continuous real numbers. The differences among thme is that **Shannon index** quantifies both richness and evenness, a high Shannon indicates that the species in the sample (or community) is not only diverse but also evenly evenly distributed; **Pielou's evenness** measures how equally distributed the species in a sample are, it ranges from 0 to 1, the smaller the value, the less even the species are distributed in the communities (i.e. sign of presence of dominant species), and vice versa; **Faith's phylogenetic diversity** also quantifies the biodiversity in a sample (or community), but it does so by taking the phylogenies of the species into account.The higher the value, the larger the phylogenetic distances among species in a sample. 
 
 ### 2.2 Statistical approach
-In this project, we will be mainly examining the effect of Bti treatment on these three-alpha diversity metrices by accounting for the physical chemical parameters as well as week and year using various statistical approach. 
+In this project, we will be mainly examining the effect of Bti treatment on these three-alpha diversity indices. The goal is to apply various statistical methods covered throughout the semester and see if the results differ. 
 
-#### 2.2.1 General linear mixed model
+First of all, a general linear mixed model will be applied to investigate treatment effect using the R package *lme4*, we will use `TreatP` and `Year` as fixed effects, `Site` as a random effect. The reason why we don’t include parameter `Week` in our model is that only 1 measurement was taken for each site per week, thus there will be no variation in `Week`. If the assumption of a Gaussian distribution cannot be satisfied from the linear mixed model, we can use a Generalized linear mixed model (GLMM). We’ve learnt a few distributions from the class including Poisson, negative binomial as well as the zero-inflated or zero-truncated versions of the corresponding distributions. However, because our response variables are continuous, none of the above distribution would suit our need. I did some research online and found that **gamma distribution** can be used to model continuous variables that are always positive and have skewed distribution [@rocscience], which seems to be an ideal distribution in our case, I decided to also give it a shot.
 
-Loading relevant packages 
+
+
+
+
+## 3 Results (25%)
+
+#### 3.1 General linear mixed model
+
+Loading packages 
 ```{r message=FALSE}
 library(lme4)
 library(tidyverse)
 library(patchwork)
 library(lattice)
+library(rptR)
+library(lmerTest)
+
 ```
 
 Let's inspect the data first. Please note that the `TreatP` column shows if a site is desginated as a bti-treated site or a control site without any treatment. `BTI` represents the treatment sites and `CTRL` represents the control sites. 
@@ -51,7 +64,7 @@ kanata_data <- read.csv("BIO8102_bti_metadata.csv")
 str(kanata_data)
 ```
 
-Let's we convert `Week`, `Year` and `TreatP` into factors. 
+Since some data categories are not ideal, we will convert `Week`, `Year` and `TreatP` into factors from character variables. 
 ```{r}
 kanata_data <- mutate(
   kanata_data,
@@ -70,12 +83,14 @@ Now, let's check the replications of each categories in our datasite.
 
 # check replication for each `Site` within each treatment type `TreatP` 
 (reptab <- with(kanata_data, table(TreatP, Year)))
-  # Here for 2016 data, the number of replications for BTI and CTRL are much less than that of 2017, 2018 due to insufficient sampling efforts in that year. Let's try to remove 2016 data. 
+  # Here for 2016 data, the number of replications for BTI and CTRL are much less than that of 2017, 2018 due to insufficient sampling efforts in that year.Thus, we will exclude 2016 data from our analysis. 
 
 kanata_data_filtered <- subset(kanata_data, Year!="2016")
 ```
 
-Let's start with an initial plot of the alpha diversity metrics against treatment types. 
+
+
+Another way to explore the data in a simple manner is by plotting the alpha diversity metrics against treatment types. 
 ```{r echo=FALSE, message=FALSE, fig.width=5, fig.height=5}
 library(gridExtra)
 shannon_treatp <- ggplot(kanata_data_filtered, aes(x = TreatP, y = shannon_entropy)) +
@@ -111,30 +126,309 @@ grid.arrange(shannon_treatp, pielou_treatp, faith_treatp, ncol=3)
 
 ```
 
+Just by visualizing the plots, it seems that Bti treatment did not create much differences in terms of the three metrics. Okay, enough of exploration, let's dive into the problem. 
 
+As shown in figure2, the data structure is a bit complex with `TreatP` and `Year` crossed with each other, then `Site` can be considered as nested in `TreatP` or `Year`, and `Weeks` are subsequently crossed with `Site`. Since we are interested in understanding the effect of the treatment, TreatP will be counted as a fixed effect. The random effects in this model would be `Year` and `Site`. The reason why we don't consider the variable `Week` to be included in the model is because at each site, only 1 measurement was taken in each week, therefore there won't be any variation in `Week`.
 
-Just by visualizing the plots, it seems that Bti treatment did not create much differences in terms of the three metrics.
-
-Let's try to fit a liner mixed models with TreatP and year as fixed effect, sites as a random effect intercept, (i.e., since each site was measured repeatedly). Here I am only going to use Shannon diversity since the distributions of the three metrics look pretty similar.
+Let's try to fit a liner mixed models with TreatP and year as fixed effect, sites as a random effect intercept, (i.e., since each site was measured repeatedly across sevearl weeks). Here I am only going to use the Shannon index for the purpose of demonstrating my statistical thoughts. 
 ```{r}
 m1_1 <- lmer(shannon_entropy ~ TreatP + Year + (1 | Site), data = kanata_data_filtered)
 summary(m1_1)
-confint(m1_1)
+ranova(m1_1)
+```
 
-m2_1 <- lmer(shannon_entropy ~ TreatP + Year + (Year | Site) , data = kanata_data_filtered)
-summary(m2_1)
+From the summary report, the random effect measures the variability for `Site`. The among-site variance is 0.06217 with a standard deviation of 0.2493. The residual has a value of 0.322, representing the variability that's not due to variation among `Site`, which is a lot higher than the variability within `Site`. This reflects that something else has contributed to the variability in the model, that we have not accounted for. In terms of the repeatability (aka intraclass correlation coefficient), it can be calculated as 0.06217 / (0.06217 + 0.32236) = **0.1617**, meaning that after controlling for treatment type and year, 16.17% of the variation in the Shannon index is due to differences among sites. 
 
-?isSingular
+Regarding the fixed effects section, since the default display for categorial fixed variables in R are treatment contrasts, thus all levels of a factor are compared to the base level or the reference category. TreatPCTRL is the difference between CTRL and BTI (with respect to the dependent variable: Shannon index). The difference is with respect to the other base levels. The effect of TreatPCTRL is estimated for data where Year = 2017. It means that in year 2017, the difference in Shannon between CTRL and BTI is only 0.026. And in BTI treated sites, the difference between year 2017 and 2018 is 0.109. None of them are considered significant. The intercept has an extremely small p-value, but it just means that the estimated value is "significantly" different from, thus this value is not of too much importance. None of the correlation coefficient are greater than 0.7 or smaller than 0.07, so multicollinearity is not likely an issue in our model.Interestingly, the LRT test of the random effect using ranova() function revealed that there some strong among-site variance in the Shannon index, with a p-value of 0.008571. 
+
+Now, let's add an interaction term between TreatP and Year to the model and see what would happen. 
+```{r}
+m1_2 <- lmer(shannon_entropy ~ TreatP + Year + TreatP : Year + (1 | Site), data = kanata_data_filtered)
+summary(m1_2)
+```
+Adding the intereaction term improved the variance explained by the random effect from 0.06217 to 0.06383. In terms of the repeatability, it can be calculated as 0.06383 / (0.06383 + 0.31440) = **0.1688**, meaning that after controlling for treatment type and year and their interaction, 16.88% of the variation in the Shannon index is due to differences among sites. The repeatability increased slighly as well from 16.17%, but not significantly.
+
+Interesting, it turned the coefficient of the estimate of the two fixed effects into negative values, but none of them are significant. What the term `TreatPCTRL:Year2018` is telling us is that the difference between CTRL and BTI treated site is higher in 2018 than 2017, with a quite small p-value of 0.0558.
+
+Next we examine the model assumptions using diagnostic plots for the two models with and without interaction. 
+```{r}
+par(mfrow = c(2, 2))
+qqnorm(residuals(m1_1)) # linearity
+hist(resid(m1_1)) # normality of residuals
+qqnorm(residuals(m1_2)) # linearity
+hist(resid(m1_2)) # normality of residuals
+```
+
+```{r fig.width=5, fig.height=5, message=FALSE}
+library(gridExtra) 
+homom1_1 <- plot(m1_1, main="m1_1 (no interaction)") # homoscedasticity of residuals
+homom1_2 <- plot(m1_2, main="m1_2 (interaction)") # homoscedasticity of residuals
+grid.arrange(homom1_1, homom1_2, ncol=2)
+```
+
+It seems that the relation between covariates and the response are not linear, and the residuals are not homoscedastic but slightly Gaussian. Interestingly, the diagnostic plots for the two models are almost identical. The normality and linearity plots are identical, suggesting that the interaction term did not contribute to the diagnosis of the model.
+
+What about the assumptions for the random effect? 
+```{r}
+# extracting blups
+r1 <- as.data.frame(ranef(m1_1, condVar = TRUE))
+par(mfrow = c(1, 2))
+hist(r1$condval)
+qqnorm(r1$condval)
+```
+It shows that the random effect doesn't have a normal distribution. Now, we plot and sorted the BLUPS with their associated errors.
+
+```{r echo=FALSE, fig.width=5, fig.height=5}
+r1 <- r1[order(r1$condval), ] # sorting the BLUPs
+ggplot(r1, aes(y = grp, x = condval)) +
+  geom_point() +
+  geom_pointrange(
+    aes(xmin = condval - condsd * 1.96, xmax = condval + condsd * 1.96)
+  ) +
+  geom_vline(aes(xintercept = 0, color = "red")) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+
+Basically the model assumes that the error on each data points, which are `Site`, is the same across the entire chart for all random effect. Here it indicates that the assumption of the residual variance is constant across all levels of a random effect is satisfied. However, due to the violation of other assumptions, a linear mixed model is probably not a good choice. 
+
+
+Notes:
+Correlation section:
+- correlation of the fixed effects, look at any value that is higher than 0.7
+- correlation is an indication of collinearity. 
+- consider dropping one of the correlated factor. 
+
+- see if the variable variance change at all, compare between models. 
+- see how variance of the random effects can vary when you change the fixed effects. The varaince you have on the random effects is conditional on the fixed effect, changing the fixed effect in the model is going to affect the variance in the random variable. 
+
+Why do we need to scale the variables?
+- scaling a variable (from 0 to 1) would allow you to compare the variables with other variables more easily.
+
+### 3.2 Correlation analysis using BLUPs
+
+```{r}
+# loading packages
+library(magrittr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r eval=FALSE}
+m1_2 <- lmer(shannon_entropy ~ TreatP + Year + TreatP : Year + (1 | Site), data = kanata_data_filtered)
+summary(m1_2)
+
+par(mfrow = c(1, 3))
+plot(resid(m1_2, type = "pearson") ~ fitted(m1_2))
+qqnorm(residuals(m1_2))
+hist(residuals(m1_2))
 
 ```
-The random effect section measure the variability for `Site`. The among-site variance is 0.0622 with a standard deviation of 0.249. The residual has a value of 0.322, representing the variability that's not due to variation among `Site`, which is a lot higher than the variability within `Site`. This reflects that something else has contributed to the variability in the model, that we have not accounted for. 
 
-For the fixed effects section, TreatP:CTRL has a value of 0.026, which is the slope for this categorical effect of `TreatP`. This means that on average, the shannon index in control sites are higher than that in treatment sites by 0.026, which is not of too much interest. 
+```{r}
+m2_1 <- lmer(faith_pd ~ TreatP + Year + TreatP : Year + (1 | Site), data = kanata_data_filtered)
+summary(m2_1)
 
-#### 2.2.2
+par(mfrow = c(1, 3))
+plot(resid(m2_1, type = "pearson") ~ fitted(m2_1))
+qqnorm(residuals(m2_1))
+hist(residuals(m2_1))
+```
 
 
-## 3 Results (25%)
+```{r}
+df_blups_shannon_faith <- merge(
+  as.data.frame(ranef(m1_2)),
+  as.data.frame(ranef(m2_1)),
+  by = "grp"
+) %>%
+  mutate(
+    shannon = condval.x,
+    faith_pd = condval.y
+  )
+
+(cor_blups <- with(df_blups_shannon_faith, cor.test(shannon, faith_pd)))
+
+```
+
+```{r fig.width=6}
+library(gridExtra) 
+gplot1 <- ggplot(df_blups_shannon_faith, aes(x = shannon, y = faith_pd)) +
+  geom_point() +
+  labs(xlab = "shannon (BLUP)", ylab = "faith pd (BLUP)") +
+  theme_classic()
+gplot2 <- ggplot(df_blups_shannon_faith, aes(x = shannon, y = faith_pd)) +
+  geom_point() +
+  geom_linerange(aes(
+    xmin = shannon - condsd.x,
+    xmax = shannon + condsd.x
+  )) +
+  geom_linerange(aes(
+    ymin = faith_pd - condsd.y,
+    ymax = faith_pd + condsd.y
+  )) +
+  labs(
+    xlab = "shannon (BLUP +/- SE)",
+    ylab = "faith pd speed (BLUP +/- SE)"
+  ) +
+  theme_classic()
+grid.arrange(gplot1, gplot2, ncol=2)
+
+# Figure. Relation between shannon and faith_pd index using BLUPs from univariate models (left); including +/- SE as error bars (right).
+
+```
+
+It can be seen that a strong posivie correlation of the Shannon index and the faith_pd index was observed
+
+As you can see, we get a positive correlation (correletion coefficient = 0.888598) with a very small p-value (P = 4.907e-05). This suggests that Sites with higher Shannon index than average also tend to have higher faith_pd index. However, the significance obtained here can be anticonservative due to inherent errors in the lmer models not being carried forward to the correlation test. This can be demonstrated from right figure above, which shows the standard errors associated with each estimate.
+
+
+### 3.3 Multivariate analysis using ASRemlR
+
+```{r message=FALSE}
+#loading required packages
+library(lmerTest)
+library(tidyverse)
+library(asreml)
+library(MCMCglmm)
+library(nadiv)
+```
+
+First scale the response variables to allow easier model fitting and results interpretation.
+```{r}
+df_multivariate <- kanata_data_filtered%>%
+  mutate(
+    AreaName = as.factor(AreaName),
+    Site=as.factor(Site),
+    shannon_sc = scale(shannon_entropy),
+    faith_sc = scale(faith_pd)
+  )
+```
+
+Perform a multivariate analysis to examine the relationship between shannon and faith_pd indices.
+```{r}
+asr_multivariate <- asreml(
+  cbind(shannon_sc, faith_sc) ~ trait +
+    trait:TreatP + trait:Year,
+  random = ~ Site:us(trait),
+  residual = ~ units:us(trait),
+  data = df_multivariate,
+  maxiter = 100
+)
+```
+
+Using diagnostic plots to check model fit. 
+```{r}
+par(mfrow = c(1, 3))
+plot(residuals(asr_multivariate) ~ fitted(asr_multivariate))
+qqnorm(residuals(asr_multivariate))
+hist(residuals(asr_multivariate))
+```
+
+Let's check out the summary of the ASReml model, we start by examining the fixed effects. 
+```{r}
+summary(asr_multivariate, coef = TRUE)$coef.fixed
+```
+
+
+
+### 3.4 MCMCglmm 
+
+loading the required packages
+```{r message=FALSE}
+library(lmerTest)
+library(tidyverse)
+library(rptR)
+library(brms)
+library(MCMCglmm)
+library(bayesplot)
+```
+
+```{r message=FALSE}
+mcglm_time <- system.time(
+  mcmcglmm_1 <- MCMCglmm(
+    shannon_entropy ~ TreatP + Year,
+    random = ~Site,
+    data = kanata_data_filtered
+  )
+)
+```
+
+```{r}
+summary(mcmcglmm_1)
+mcglm_time
+```
+
+We can see that the model took 0.383 seconds to run. In the summary section, iterations represent when the chain started and finished oscillating, in this case it started at 3001 and finished at 12991. The thinning interval is 10. Sample size is 1000, representing the number of values in the chain. The model also gives various estimates for the fixed effects and are posterior mean, upper and lower credible intervals, effective sample size and probability estimate associated with each parameter. For every estimate, we get a idea of sampling error around each parameter by looking at the credible intervals. Here the credible intervals for the intercept do not include 0, representing a significant difference. In addition, none of the two fixed effects is a meaningful predictor of the Shannon index. The effective sample size tells you that from all the sample you have in your chain, how many independent sample there is roughly. Here for the random effect `Site`, it only has an effective sample size of 18.5, meaning that only 33 independent observations can be found given 1000 samples in the chain. This requires us to take a closer look at the output for the model in terms of the chain parameters. 
+
+
+```{r}
+plot(mcmcglmm_1$Sol)
+```
+
+The above plots are plots for fixed effects 
+
+```{r}
+plot(mcmcglmm_1$VCV)
+```
+
+The above plots are plots for the random effect. From the bottom two plots, we can see that the distribution of the residuals are kind of okay with roughly a Gaussian distribution. The chain seems to be mixed well and oscillating around a steady value. But from the top two plots, for the random effect "Site", the chain is not mixing very well. The takeaway from here is that the model didn't run very well, we need potentially longer chain with better prior to have a better mixing.   
+
+Next, we could have a look at autocorrelation in the chain.
+```{r}
+autocorr.diag(mcmcglmm_1$VCV)
+```
+
+One of the assumptions when running MCMCglmm is that there is no correlation between the chain with the different time lag. Meaning if you take a value and the following value, you don't want those values to be correlated. In the end, we want to have iterations of the chain that are independent of each other. 
+The autocorrelation results show that we have significant autocorrelations in out interation, because ideally we want a value of below 0.1. 
+
+Now, we are going to increase the number of interation and burn-in and thinning. Before we were taking 1 value for every 10 iterations in the chain, we can see that even with a lag of 500, there is still some autocorrelation. Thus, we will record a value for every 500 iterations as opposed to 10 iterations.
+
+```{r}
+n_samp <- 1000
+thin <- 500
+burnin <- 20000
+mcglm_time <- system.time(
+  mcmcglmm_2 <- MCMCglmm(
+    shannon_entropy ~ TreatP + Year,
+    random = ~Site,
+    data = kanata_data_filtered,
+    nitt = n_samp * thin + burnin, thin = thin, burnin = burnin,
+    verbose = FALSE,singular.ok = TRUE,
+    prior = list(
+      R = list(V = 1, nu = 0.002),
+      G = list(
+        G1 = list(V = 1, nu = 0.002)
+      )
+    )
+  )
+)
+summary( mcmcglmm_2)
+```
+Now the effective samples have become 1000 for all parameters, which indicates a better model fitting. With increased number of iterations, burning and thinning, none of the paremeters appear to be significant. Even the previously significant intercept parameter has become non-significant. 
+
+Let's visuazlie model fitting using plots.
+```{r fig.height=7}
+plot(mcmcglmm_2$Sol)
+```
+
+```{r}
+plot(mcmcglmm_2$VCV) 
+
+```
+
+Now let's check autocorrelation again.
+```{r}
+autocorr.diag(mcmcglmm_2$VCV)
+```
+The issue of autocorrelation has been improved dramatically with lag values below 0.1. 
+
+#Read MCMCglmm coursenotes about priors. 
+
+
+###
+
 
 ## 4 Discussion (15%)
 
